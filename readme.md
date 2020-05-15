@@ -17,7 +17,7 @@ foo@bar:~$ git add .
 
 4. Cuando estamos conformes con el nivel de desarrollo logrado podemos actualizar todo el repositorio y establecer una nueva versión de nuestro proyecto. Para ello recurrimos al comando commit. No olvidar de hacer una breve descripción de la nueva versión, en el editor de texto que se despliega.
 ```console
-foo@bar:~$ git commit -m
+foo@bar:~$ git commit -a
 ```
 
 5. Finalmente, podemos actualizar nuestro repositorio remoto en caso que lo tengamos. Lo primero es agregar la dirección de tal repositorio, que se realiza de la siguiente manera
