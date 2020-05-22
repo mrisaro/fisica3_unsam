@@ -1,7 +1,14 @@
 ## Repositorio de Física 3 unsam
 Acá pretendemos escribir algunos de los lineamientos para las prácticas de laboratorio y los informes que tienen que realizar los estudiantes
 
-### Teoría de los termistores
+#### Resistencia en metales
+Es usual hacer referencia a un _coeficiente de temperatura_ para describir la dependencia con la temperatura de los distintos materiales. En el caso de los metales se observa que este coeficiente es constante y que por lo tanto existe una relación lineal con la temperatura. La resistencia de un material es entonces,
+
+$$ R(T) = R(T_{0}) \{1 + \alpha \Delta T \} = R(T_{0}) \{1 + \alpha (T-T_{0}) \}$$
+
+En donde $T_{0}$ es la temperatura ambiente, 298.15 K, mientras que $R(T_{0})$ es el valor de resistencia a dicha temperatura.
+
+#### Teoría de los termistores
 El termistor es un elemento semiconductor, cuya resistencia es función de la temperatura. A diferencia de lo que ocurre con los metales la variación de de temperatura es mucho más abrupta. En los metales se tiene un comportamiento lineal, mientras que en los termistores es de tipo exponencial. Como dato histórico, la primera evidencia de los termistores la realizó Faraday, cuando investigaba las propiedades del sulfuro de plata.
 
 Se tienen dos tipos de termistores:
@@ -15,7 +22,6 @@ o en forma equivalente,
 $$\frac{1}{T} = \frac{1}{T_{0}} + \frac{1}{B}\ln (\frac{R}{R_{0}})$$
 
 El parámetro $R_{0}$ es el valor de resistencia a $T_{0}$ (298.15K)
-
 
 ### Algunos comandos para git
 Algunos comandos para una carpeta que ya tenemos con archivos
